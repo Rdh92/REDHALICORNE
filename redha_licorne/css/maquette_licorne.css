@@ -1,0 +1,114 @@
+body{
+    background-image: url(../img/background.png);
+    margin: 0;
+}
+
+main{
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+header nav{
+    background-color:#b44b87;
+    color: white;
+    margin-top: 0;
+}
+
+nav ul{
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    /* repeat x : répétition horizontale sur l'axe de abscisses  */
+    background-color:#bd4f8d ;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    width: 130px;
+
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.texte{
+    border: 1px solid black;
+    /* padding: 40px; */
+}
+
+
+h1{
+    text-align: center;
+    padding: 150px;
+    color: #c77fb7;
+    background-image: url(../img/rainbow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gauche{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.texte{
+    padding: -20px;
+}
+
+
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+section{
+    width: 930px;
+}
+
+figcaption{
+    position: relative;
+    bottom: 20px;
+    opacity: 0.8;
+    background-color: #333;
+    height: 20px;
+    line-height: 20px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.galerie{
+    float: left;
+    margin-left: 20%;
+}
+
+
+
+.photo{
+    float: left;
+    padding: 30px 10px;
+    display: block;
+}
+
+footer{
+    background-color: #e577b5;
+    margin-top: 0;
+    height: 50px;
+}
+
+.clear{
+    clear: both;
+}
