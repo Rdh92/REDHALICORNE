@@ -4,19 +4,23 @@ body{
 }
 
 main{
-    width: 930px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -90px;
     border: 1px solid black;
+    padding: auto;
+    background-color: #fff;
 }
 
 header nav{
     background-color:#b44b87;
     color: white;
-    margin-top: 0;
+    margin-top: 10px;
+    
 }
 
-nav ul{
+nav {
     height: 35px;
     margin: 0;
     padding: 0;
@@ -50,11 +54,24 @@ nav ul li a{
 
 h1{
     text-align: center;
-    padding: 150px;
+    padding: 120px;
+    margin-top: 20px;
     color: #c77fb7;
     background-image: url(../img/rainbow.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* h2{
+    margin-top: -10px;
+} */
+
+h3{
+    color: #eb4aab;
+}
+
+h4{
+    color: #b44b87;
 }
 
 .gauche{
@@ -70,12 +87,12 @@ h1{
 
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 
-section{
-    width: 930px;
+section .texte{
+    width: 900px;
 }
 
 figcaption{
@@ -90,11 +107,9 @@ figcaption{
     text-align: center;
 }
 
-.galerie{
+address{
     float: left;
-    margin-left: 20%;
 }
-
 
 
 .photo{
